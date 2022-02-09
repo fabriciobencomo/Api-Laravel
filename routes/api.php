@@ -2,7 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Api\V1\PostController;
+use App\Http\Controllers\Api\V2\PostController;
 
 
-Route::apiResource('v1/posts', PostController::class);
+Route::apiResource('v2/posts', PostController::class);
